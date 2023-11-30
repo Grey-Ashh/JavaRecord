@@ -1,0 +1,77 @@
+student details
+________________________________________________________
+Enter name : Susan
+Enter Roll.no : 1
+Enter mark of sub 1 : 99
+Enter mark of sub 2 : 98
+Enter mark of sub 3 : 99
+Enter mark of sub 4 : 99
+Enter mark of sub 5 : 100
+Name : Susan
+Roll.no :1
+Mark of sub 1 : 99
+Mark of sub 2 : 98
+Mark of sub 3 : 99
+Mark of sub 4 : 99
+Mark of sub 5 : 100
+
+________________________________________________________
+area
+________________________________________________________
+Rectangle
+Enter length :10
+Enter bredth :9
+Circle
+Enter radius :9
+Triangle
+Enter height :10
+Enter base length :9
+Area of Rectangle= 90
+Area of Circle= 254.34
+Area of Triangle= 45.0
+
+________________________________________________________
+perimeter
+________________________________________________________
+Rectangle
+Enter length :10
+Enter bredth :9
+Circle
+Enter radius :9
+Perimeter of Rectangle= 38
+Perimeter of Circle= 56.52
+
+________________________________________________________
+employee details
+________________________________________________________
+Enter name : John
+Enter Emp.no : 1
+Enter phone : 12345
+Enter name : Susan
+Enter Emp.no : 2
+Enter phone : 67890
+Enter name : Jim
+Enter Emp.no : 3
+Enter phone : 09876
+Enter name : Julia
+Enter Emp.no : 4
+Enter phone : 54321
+Enter name : Eve
+Enter Emp.no : 5
+Enter phone : 13579
+Name : John
+Emp.no :1
+Phone : 12345
+Name : Susan
+Emp.no :2
+Phone : 67890
+Name : Jim
+Emp.no :3
+Phone : 9876
+Name : Julia
+Emp.no :4
+Phone : 54321
+Name : Eve
+Emp.no :5
+Phone : 13579
+

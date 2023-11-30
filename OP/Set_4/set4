@@ -1,0 +1,63 @@
+organisation
+__________________________________________________________
+Enter no of Employee : 1
+Enter no of Manager : 1
+Enter no of Officer : 1
+Employee Details
+Enter name : Jhon
+Enter Age : 32
+Enter phone : 123456789
+Enter Salary : 1000000
+Enter Address : abcd
+Officer Details
+Enter name : Susan
+Enter Age : 35
+Enter phone : 987654321
+Enter Salary : 2000000
+Enter Address : efgh 
+Enter Specialisation : Communication
+Manager Details
+Enter name : Jacob
+Enter Age : 50
+Enter phone : 135792468
+Enter Salary : 1500000
+Enter Address : ijklm
+Enter Department : HR
+
+
+Name : Susan
+Age : 35
+Phone : 987654321
+Salary : 2000000
+Address : efgh
+Specialisation : Communication
+
+
+Name : Jacob
+Age : 50
+Phone : 135792468
+Salary : 1500000
+Address : ijklm
+Department : HR
+
+Name : Jhon
+Age : 32
+Phone : 123456789
+Salary : 1000000
+Address : abcd
+_________________________________________________________
+Abstarct shapes
+_________________________________________________________
+
+Rectangle No.of sides: 4
+Triangle No.of sides: 3
+Hexagon No.of sides: 6
+
+_________________________________________________________
+organisationsal
+_________________________________________________________
+
+Salary of employee is 100000.
+Salary of employee is 200000.
+The name of the class is Employee
+

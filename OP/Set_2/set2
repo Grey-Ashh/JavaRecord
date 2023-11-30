@@ -1,0 +1,161 @@
+sum of elements in an array
+_________________________________________
+
+Enter the number of elements: 5
+Enter elements 1:1
+Enter elements 2:2
+Enter elements 3:3
+Enter elements 4:4
+Enter elements 5:5
+Sum of the elements= 15
+
+_________________________________________
+smallest element in an array
+_________________________________________
+
+Enter the number of elements: 5
+Enter elements 1:2
+Enter elements 2:4
+Enter elements 3:3
+Enter elements 4:5
+Enter elements 5:1
+Smallest of the elements= 1
+
+_________________________________________
+replace a particular element in an array
+_________________________________________
+
+Enter the number of elements: 5
+Enter elements 1:1
+Enter elements 2:2
+Enter elements 3:3
+Enter elements 4:4
+Enter elements 5:5
+Enter the element to be replaced: 3
+Enter the element to be replaced with: 6
+New array,
+1 2 6 4 5 
+
+_________________________________________
+second largest element in an array
+_________________________________________
+
+Enter the number of elements: 5
+Enter elements 1:4
+Enter elements 2:5
+Enter elements 3:2
+Enter elements 4:1
+Enter elements 5:3
+Second largest of the elements= 4
+
+_________________________________________
+largest element in nxn matrix
+_________________________________________
+
+Enter the order number: 2
+Enter elements [0][0]: 2
+Enter elements [0][1]: 1
+Enter elements [1][0]: 4
+Enter elements [1][1]: 3
+larrgest of the elements= 4
+
+_________________________________________
+add two matrix
+_________________________________________
+
+Enter number of rows for Matrix: 2
+Enter number of coloumn for Matrix: 2
+For Matrix 1
+Enter elements [1][1]: 1
+Enter elements [1][2]: 2
+Enter elements [2][1]: 3
+Enter elements [2][2]: 4
+For Matrix 2
+Enter elements [1][1]: 5
+Enter elements [1][2]: 6
+Enter elements [2][1]: 9
+Enter elements [2][2]: 8
+Added Matrix ,
+6 8 
+12 12 
+_________________________________________
+transpose of matrix
+_________________________________________
+
+Enter number of rows for Matrix: 2
+Enter number of coloumn for Matrix: 2
+Enter Matrix elements,
+Enter elements [1][1]: 1
+Enter elements [1][2]: 2
+Enter elements [2][1]: 3
+Enter elements [2][2]: 4
+Transpose Matrix,
+1 3 
+2 4 
+_________________________________________
+multiply two matrix
+_________________________________________
+
+Enter number of rows for Matrix 1: 2
+Enter number of coloumn for Matrix 1: 2
+Enter number of rows for Matrix 2: 2
+Enter number of coloumn for Matrix 2: 2
+For Matrix 1
+Enter elements [1][1]: 1
+Enter elements [1][2]: 2
+Enter elements [2][1]: 3
+Enter elements [2][2]: 4
+For Matrix 2
+Enter elements [1][1]: 5
+Enter elements [1][2]: 6
+Enter elements [2][1]: 9
+Enter elements [2][2]: 8
+Product Matrix 
+23 22 
+51 50 
+
+_________________________________________
+trace of matrix
+_________________________________________
+
+Enter the order number: 2
+Enter elements [1][1]: 2
+Enter elements [1][2]: 1
+Enter elements [2][1]: 2
+Enter elements [2][2]: 3
+Trace of the elements= 5
+
+_________________________________________
+string palindrome
+_________________________________________
+
+Enter the String: wow
+Entered String is palindrome.
+
+Enter the String: hello
+Entered String is not palindrome.
+_________________________________________
+string search
+_________________________________________
+
+Enter the String: hello
+Enter the character to be searched: e
+Entered the character at 2
+
+_________________________________________
+string replace
+_________________________________________
+
+Enter the String: hello
+Enter the character to be replaced: l
+Enter the character to be replaced with: a
+New string:  heaao
+
+_________________________________________
+string frequency
+_________________________________________
+
+Enter the String: hello
+Enter the character to be searched: l
+Entered the character frequency=2
+

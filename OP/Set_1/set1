@@ -1,0 +1,57 @@
+hello world
+__________________________________
+
+Hello World
+__________________________________
+add two numbers
+__________________________________
+
+Enter the first number: 10
+Enter the second number: 1
+The sum of 10 and 1 is 11
+__________________________________
+odd or even
+__________________________________
+
+Enter the number: 1
+The entered number is odd.
+
+Enter the number: 2
+The entered number is even.
+__________________________________
+prime or not
+__________________________________
+//not done
+Enter the number: 2
+The entered number is prime.
+
+__________________________________
+sum of natural numbers
+__________________________________
+
+Enter the number: 10
+Enter the sum of the numbers= 55
+
+__________________________________
+factor of a number
+__________________________________
+
+Enter the number: 10
+The factors are,
+1 2 5 10 
+
+__________________________________
+fibinocii
+__________________________________
+
+Enter the number n to which fibinocci should be printed : 5
+Fibinocci printed : 
+0 1 1 2 4
+
+__________________________________
+factorial
+__________________________________
+
+Enter the number: 5
+Factorial of the number= 120
+

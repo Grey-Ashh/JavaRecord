@@ -1,0 +1,2 @@
+java.lang.ArithmeticException: / by zero
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
