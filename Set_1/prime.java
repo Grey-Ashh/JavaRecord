@@ -8,7 +8,7 @@ class prime
 			Scanner input=new Scanner(System.in);
 			System.out.print("Enter the number: ");
 			num=input.nextInt();
-			for(i=2;i<num/2;i++)
+			for(i=2;i<=num/2;i++)
 				{
 					if(num%i==0)
 						{
