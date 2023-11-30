@@ -14,20 +14,19 @@ class arraysecondlarge
 					System.out.print("Enter elements "+(i+1)+":");
 					a[i]=input.nextInt();
 				}
-			large=a[0];
-			for(i=0;i<=1;i++)
-				{
-					large=a[0];
-					for(j=0;j<n-i;j++)
-						{
-							if(a[i]>large)
-								{
-									large=a[i];
-									a[i]=a[n-i-1];
-								}						
-						}
-				}
-				
+			for (i=0; i<n;i++)   
+     				{  
+          			for (j=i+1;j<n;j++)   
+            				{  
+                				if(a[i]>a[j])   
+                					{  
+                    						temp=a[i];  
+                    						a[i]=a[j];  
+                   						a[j]=temp;  
+                					}  
+            				}  
+        			}  
+			large=a[n-2];
 			System.out.println("Second largest of the elements= "+large);			
 		}
 }
