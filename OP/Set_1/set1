@@ -21,9 +21,12 @@ The entered number is even.
 __________________________________
 prime or not
 __________________________________
-//not done
+
 Enter the number: 2
 The entered number is prime.
+
+Enter the number: 4
+The entered number is composite.
 
 __________________________________
 sum of natural numbers
