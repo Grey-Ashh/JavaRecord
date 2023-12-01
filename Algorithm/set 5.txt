@@ -1,0 +1,26 @@
+set 5
+_____________________________________________________________________________
+I. START
+
+Class: op
+1. Declare instance variables 'x', 'y', 'res' of type int, and an array 'a' of integers.
+2. Define a parameterized constructor 'op' with parameters 'x' and 'y'
+   a. Set 'this.x' to 'x'
+   b. Set 'this.y' to 'y'
+3. Define a method 'test1'
+   a. Use a try-catch block for handling exceptions
+      i. In the try block, calculate 'res' as (x + y) / (x - y)
+      ii. In the catch block, catch and print an 'ArithmeticException'
+4. Define a method 'test2'
+   a. Use a try-catch block for handling exceptions
+      i. In the try block, attempt to access 'a[5]'
+      ii. In the catch block, catch and print an 'ArrayIndexOutOfBoundsException'
+
+Class: exeption
+1. Define the main method
+   a. Declare variables 'a' and 'b' of type int and initialize them to 1
+   b. Create an object 'o' of type 'op' with 'a' and 'b' as parameters
+   c. Call 'test1' method on object 'o'
+   d. Call 'test2' method on object 'o'
+
+II. END

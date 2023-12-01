@@ -1,0 +1,28 @@
+set 6
+______________________________________________________________________________
+I. START
+
+Class: odd (extends Thread)
+1. Override the 'run' method
+   a. Use a for loop to iterate from 3 to 99 with a step of 2
+      i. Print the current value of 'i'
+      ii. Use a try-catch block for handling exceptions
+         - In the try block, sleep the thread for 500 milliseconds
+         - In the catch block, catch and print any exception
+
+Class: even (extends Thread)
+1. Override the 'run' method
+   a. Use a for loop to iterate from 2 to 98 with a step of 2
+      i. Print the current value of 'i'
+      ii. Use a try-catch block for handling exceptions
+         - In the try block, sleep the thread for 250 milliseconds
+         - In the catch block, catch and print any exception
+
+Class: threadexample
+1. Define the main method
+   a. Create an object 'o' of type 'odd'
+   b. Create an object 'e' of type 'even'
+   c. Start the 'e' thread
+   d. Start the 'o' thread
+
+II. END

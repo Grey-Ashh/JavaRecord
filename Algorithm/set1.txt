@@ -1,0 +1,112 @@
+set1
+___________________
+
+Algorithm: PrintHelloWorld
+
+1. Start
+2. Display "Hello World"
+3. End
+____________________________
+Algorithm: AddTwoNumbers
+
+1. Start
+2. Declare variables a, b of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the first number: " to prompt the user
+5. Read the first number from the user and store it in variable 'a'
+6. Display "Enter the second number: " to prompt the user
+7. Read the second number from the user and store it in variable 'b'
+8. Calculate the sum of 'a' and 'b' and store it in a variable, let's call it 'sum'
+9. Display "The sum of <a> and <b> is <sum>" where <a>, <b>, and <sum> are the values of 'a', 'b', and 'sum' respectively
+10. End
+______________________________________________
+Algorithm: CheckEvenOrOdd
+
+1. Start
+2. Declare a variable 'num' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number: " to prompt the user
+5. Read the number from the user and store it in variable 'num'
+6. Check if 'num' is even using the condition 'num % 2 == 0'
+   a. If true, display "The entered number is even."
+   b. If false, display "The entered number is odd."
+7. End
+_____________________________________________________________
+Algorithm: CheckPrimeOrComposite
+
+1. Start
+2. Declare variables 'num', 'i', and 'flag' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number: " to prompt the user
+5. Read the number from the user and store it in variable 'num'
+6. Initialize 'flag' to 1 (assuming 'num' is prime)
+7. Use a for loop with 'i' ranging from 2 to 'num/2'
+   a. Check if 'num' is divisible by 'i' (i.e., 'num % i == 0')
+      - If true, set 'flag' to 0 and break out of the loop
+8. Check the value of 'flag'
+   a. If 'flag' is 1, display "The entered number is prime."
+   b. If 'flag' is 0, display "The entered number is composite."
+9. End
+____________________________________________________________________
+Algorithm: SumOfNaturalNumbers
+
+1. Start
+2. Declare variables 'n' and 'sum' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number: " to prompt the user
+5. Read the number from the user and store it in variable 'n'
+6. Initialize 'sum' to 0
+7. Use a for loop with 'i' ranging from 0 to 'n'
+   a. Add 'i' to 'sum' in each iteration
+8. Display "The sum of the numbers = <sum>" where <sum> is the value of 'sum'
+9. End
+_________________________________________________________________________________
+Algorithm: FindFactors
+
+1. Start
+2. Declare a variable 'num' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number: " to prompt the user
+5. Read the number from the user and store it in variable 'num'
+6. Display "The factors are," to indicate that the program will list the factors
+7. Use a for loop with 'i' ranging from 1 to 'num'
+   a. Check if 'num' is divisible by 'i' (i.e., 'num % i == 0')
+      - If true, print 'i' as a factor
+8. Display a newline to separate the factors from the prompt
+9. End
+_____________________________________________________________________________________
+Algorithm: PrintFibonacci
+
+1. Start
+2. Declare a variable 'n' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number n to which Fibonacci should be printed: " to prompt the user
+5. Read the number from the user and store it in variable 'n'
+6. Initialize variables 'a' and 'b' to 0 and 1 respectively
+7. Display "Fibonacci printed: "
+8. Print the values of 'a' and 'b' separated by a space
+9. Use a for loop with 'i' ranging from 2 to 'n-1'
+   a. Calculate 'c' as the sum of 'a' and 'b'
+   b. Print 'c' separated by a space
+   c. Update 'a' to the value of 'b'
+   d. Update 'b' to the value of 'c'
+10. Display a newline to separate the output from the prompt
+11. End
+_______________________________________________________________________________________
+Algorithm: CalculateFactorial
+
+1. Start
+2. Declare a variable 'num' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number: " to prompt the user
+5. Read the number from the user and store it in variable 'num'
+6. Initialize a variable 'facto' to 1
+7. Use a for loop with 'i' ranging from 1 to 'num'
+   a. Multiply 'facto' by 'i' in each iteration
+8. Display "Factorial of the number = <facto>" where <facto> is the value of 'facto'
+9. End
+____________________________________________________________________________________
+
+
+
+

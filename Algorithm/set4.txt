@@ -1,0 +1,124 @@
+set4
+__________________________________________________________________________________________
+I. START
+
+Class: employee
+1. Declare instance variables 'Name' of type String, 'Age' of type int, 'Ph_no' of type int, 'Salary' of type int, and 'Address' of type String.
+2. Declare a Scanner object 'input' to read user input.
+3. Define a parameterized constructor 'employee' with parameters 'String name', 'int age', 'int ph_no', 'int salary', and 'String address'
+   a. Assign the values of 'name', 'age', 'ph_no', 'salary', and 'address' to the instance variables.
+4. Define a method 'printsalary' with no parameters
+   a. Display "Salary: " followed by the value of 'Salary'
+5. Define a method 'display' with no parameters
+   a. Display a new line.
+   b. Display "Name: " followed by the value of 'Name'
+   c. Display "Age: " followed by the value of 'Age'
+   d. Display "Phone: " followed by the value of 'Ph_no'
+   e. Display "Salary: " followed by the value of 'Salary'
+   f. Display "Address: " followed by the value of 'Address'
+
+Class: officer extends employee
+1. Declare an instance variable 'Sp' of type String.
+2. Define a parameterized constructor 'officer' with parameters 'String name', 'int age', 'int ph_no', 'int salary', 'String address', and 'String sp'
+   a. Call the superclass constructor using 'super(name, age, ph_no, salary, address)'
+   b. Assign the value of 'sp' to the instance variable 'Sp'
+3. Define a method 'display' with no parameters
+   a. Display a new line.
+   b. Call the superclass 'display' method using 'super.display()'
+   c. Display "Specialisation: " followed by the value of 'Sp'
+
+Class: manager extends employee
+1. Declare an instance variable 'Department' of type String.
+2. Define a parameterized constructor 'manager' with parameters 'String name', 'int age', 'int ph_no', 'int salary', 'String address', and 'String department'
+   a. Call the superclass constructor using 'super(name, age, ph_no, salary, address)'
+   b. Assign the value of 'department' to the instance variable 'Department'
+3. Define a method 'display' with no parameters
+   a. Display a new line.
+   b. Call the superclass 'display' method using 'super.display()'
+   c. Display "Department: " followed by the value of 'Department'
+
+Class: organisation
+1. Define the main method
+   a. Declare local variables 'Name', 'Age', 'Ph_no', 'Salary', 'Address' of types String and int.
+   b. Declare local variables 'n', 'x', and 'y' of type int.
+   c. Declare local variables 'Sp' and 'Department' of type String.
+   d. Create an array of 'employee' objects named 'e' with a size of 'n'.
+   e. Create an array of 'manager' objects named 'm' with a size of 'x'.
+   f. Create an array of 'officer' objects named 'o' with a size of 'y'.
+   g. Display "Enter no of Employee: "
+   h. Read the number of employees 'n' from the user.
+   i. Display "Enter no of Manager: "
+   j. Read the number of managers 'x' from the user.
+   k. Display "Enter no of Officer: "
+   l. Read the number of officers 'y' from the user.
+   m. Use a conditional statement to check if 'n' is greater than 0
+      i. Use a for loop to iterate from 0 to 'n'
+         - Display "Employee Details"
+         - Read employee details from the user and create an object 'e[i]' of type 'employee'
+   n. Use a conditional statement to check if 'y' is greater than 0
+      i. Use a for loop to iterate from 0 to 'y'
+         - Display "Officer Details"
+         - Read officer details from the user and create an object 'o[i]' of type 'officer'
+   o. Use a conditional statement to check if 'x' is greater than 0
+      i. Use a for loop to iterate from 0 to 'x'
+         - Display "Manager Details"
+         - Read manager details from the user and create an object 'm[i]' of type 'manager'
+   p. Use a for loop to iterate over 'o' and call the 'display' method on each officer object
+   q. Use a for loop to iterate over 'm' and call the 'display' method on each manager object
+   r. Use a for loop to iterate over 'e' and call the 'display' method on each employee object
+
+II. END
+_________________________________________________________________________________________
+I. START
+
+Abstract Class: Shape
+1. Declare an abstract method 'numberofsides()' with no parameters.
+
+Class: Rectangle extends Shape
+1. Implement the 'numberofsides' method
+   a. Display "Rectangle No. of sides: 4"
+
+Class: Triangle extends Shape
+1. Implement the 'numberofsides' method
+   a. Display "Triangle No. of sides: 3"
+
+Class: Hexagon extends Shape
+1. Implement the 'numberofsides' method
+   a. Display "Hexagon No. of sides: 6"
+
+Class: abstractshapes
+1. Define the main method
+   a. Create an object 'r' of type 'Shape' and initialize it with a new 'Rectangle' object.
+   b. Create an object 't' of type 'Shape' and initialize it with a new 'Triangle' object.
+   c. Create an object 'h' of type 'Shape' and initialize it with a new 'Hexagon' object.
+   d. Call the 'numberofsides' method on object 'r' (polymorphism).
+   e. Call the 'numberofsides' method on object 't' (polymorphism).
+   f. Call the 'numberofsides' method on object 'h' (polymorphism).
+
+II. END
+___________________________________________________________________________________________
+I. START
+
+Class: Employee
+1. Define a method 'display'
+   a. Display "The name of the class is Employee"
+2. Define a method 'calcsalary' with a parameter 'sal'
+   a. Display "Salary of employee is <sal>."
+
+Class: Engineer extends Employee
+1. Define a method 'sal_En'
+   a. Call 'calcsalary' method on the super class with the argument 100000
+2. Define a method 'sal_Em'
+   a. Call 'calcsalary' method on the super class with the argument 200000
+
+Class: OrganisationSal
+1. Define the main method
+   a. Create an object 'e' of type 'Engineer'
+   b. Call 'sal_En' method on object 'e'
+   c. Call 'sal_Em' method on object 'e'
+   d. Call 'display' method on object 'e'
+
+II. END
+__________________________________________________________________________________________
+
+

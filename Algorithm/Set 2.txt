@@ -1,0 +1,256 @@
+Set 2
+________________________________________________________________
+Algorithm: CalculateArraySum
+
+1. Start
+2. Declare variables 'n', 'i', and 'sum' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number of elements: " to prompt the user
+5. Read the number of elements from the user and store it in variable 'n'
+6. Declare an array 'a' of integers with a size of 'n'
+7. Use a for loop with 'i' ranging from 0 to 'n-1'
+   a. Display "Enter elements <i+1>: " to prompt the user
+   b. Read the element from the user and store it in 'a[i]'
+8. Use a for loop with 'i' ranging from 0 to 'n-1'
+   a. Add 'a[i]' to 'sum' in each iteration
+9. Display "Sum of the elements = <sum>" where <sum> is the value of 'sum'
+10. End
+______________________________________________________________________________
+Algorithm: FindSmallestInArray
+
+1. Start
+2. Declare variables 'n', 'i', and 'small' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number of elements: " to prompt the user
+5. Read the number of elements from the user and store it in variable 'n'
+6. Declare an array 'a' of integers with a size of 'n'
+7. Use a for loop with 'i' ranging from 0 to 'n-1'
+   a. Display "Enter elements <i+1>: " to prompt the user
+   b. Read the element from the user and store it in 'a[i]'
+8. Initialize 'small' with the first element of the array 'a'
+9. Use a for loop with 'i' ranging from 0 to 'n-1'
+   a. Check if 'a[i]' is smaller than 'small'
+      - If true, update 'small' with the value of 'a[i]'
+10. Display "Smallest of the elements = <small>" where <small> is the value of 'small'
+11. End
+_______________________________________________________________________________________
+Algorithm: ReplaceElementInArray
+
+1. Start
+2. Declare variables 'n', 'i', 'x', and 'temp' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number of elements: " to prompt the user
+5. Read the number of elements from the user and store it in variable 'n'
+6. Declare an array 'a' of integers with a size of 'n'
+7. Use a for loop with 'i' ranging from 0 to 'n-1'
+   a. Display "Enter elements <i+1>: " to prompt the user
+   b. Read the element from the user and store it in 'a[i]'
+8. Display "Enter the element to be replaced: " to prompt the user and store it in 'x'
+9. Display "Enter the element to be replaced with: " to prompt the user and store it in 'temp'
+10. Use a for loop with 'i' ranging from 0 to 'n-1'
+    a. If 'a[i]' is equal to 'x', replace 'a[i]' with 'temp'
+11. Display "New array,"
+12. Use a for loop with 'i' ranging from 0 to 'n-1'
+    a. Display 'a[i]' followed by a space
+13. Display a newline to separate the output from the prompt
+14. End
+__________________________________________________________________________________________
+
+Algorithm: FindSecondLargestInArray
+
+1. Start
+2. Declare variables 'n', 'i', 'j', 'large', and 'temp' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the number of elements: " to prompt the user
+5. Read the number of elements from the user and store it in variable 'n'
+6. Declare an array 'a' of integers with a size of 'n'
+7. Use a for loop with 'i' ranging from 0 to 'n-1'
+   a. Display "Enter elements <i+1>: " to prompt the user
+   b. Read the element from the user and store it in 'a[i]'
+8. Use nested for loops to perform a bubble sort on the array 'a'
+   a. Compare each element 'a[i]' with 'a[j]' and swap them if 'a[i] > a[j]'
+9. Set 'large' to the second-to-last element in the sorted array 'a'
+10. Display "Second largest of the elements = <large>" where <large> is the value of 'large'
+11. End
+__________________________________________________________________________________________
+Algorithm: FindLargestInMatrix
+
+1. Start
+2. Declare variables 'n', 'i', 'j', and 'l' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the order number: " to prompt the user
+5. Read the order of the matrix from the user and store it in variable 'n'
+6. Declare a 2D array 'a' of integers with dimensions 'n x n'
+7. Use nested for loops with 'i' ranging from 0 to 'n-1' and 'j' ranging from 0 to 'n-1'
+   a. Display "Enter elements ["+i+"]"+"["+j+"]: " to prompt the user
+   b. Read the element from the user and store it in 'a[i][j]'
+8. Initialize 'l' with the value of the element at the first row and first column, i.e., 'a[0][0]'
+9. Use nested for loops with 'i' ranging from 0 to 'n-1' and 'j' ranging from 0 to 'n-1'
+   a. Check if 'a[i][j]' is greater than 'l'
+      - If true, update 'l' with the value of 'a[i][j]'
+10. Display "Largest of the elements = <l>" where <l> is the value of 'l'
+11. End
+_________________________________________________________________________________________
+Algorithm: AddMatrices
+
+1. Start
+2. Declare variables 'r', 'c', 'i', 'j', and 'count' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter number of rows for Matrix: " to prompt the user and store it in 'r'
+5. Display "Enter number of columns for Matrix: " to prompt the user and store it in 'c'
+6. Declare 2D arrays 'a', 'b', and 'add' of integers with dimensions 'r x c'
+7. Initialize 'count' to 0
+8. Use a while loop with the condition 'count < 2'
+   a. Display "For Matrix <count+1>:"
+   b. Use nested for loops with 'i' ranging from 0 to 'r-1' and 'j' ranging from 0 to 'c-1'
+      i. Display "Enter elements [<i+1>][<j+1>]: "
+      ii. Read the element from the user and store it in the corresponding array (a or b)
+   c. Increment 'count'
+9. Use nested for loops with 'i' ranging from 0 to 'r-1' and 'j' ranging from 0 to 'c-1'
+   a. Add corresponding elements of arrays 'a' and 'b' and store the result in the 'add' array
+10. Display "Added Matrix,"
+11. Use nested for loops with 'i' ranging from 0 to 'r-1' and 'j' ranging from 0 to 'c-1'
+    a. Display 'add[i][j]' followed by a space
+    b. Display a newline after each row
+12. End
+___________________________________________________________________________________________
+
+Algorithm: TransposeMatrix
+
+1. Start
+2. Declare variables 'r', 'c', 'i', and 'j' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter number of rows for Matrix: " to prompt the user and store it in 'r'
+5. Display "Enter number of columns for Matrix: " to prompt the user and store it in 'c'
+6. Declare 2D arrays 'a' and 'b' of integers with dimensions 'r x c'
+7. Display "Enter Matrix elements,"
+8. Use nested for loops with 'i' ranging from 0 to 'r-1' and 'j' ranging from 0 to 'c-1'
+   a. Display "Enter elements [<i+1>][<j+1>]: "
+   b. Read the element from the user and store it in 'a[i][j]'
+9. Use nested for loops with 'i' ranging from 0 to 'r-1' and 'j' ranging from 0 to 'c-1'
+   a. Set 'b[i][j]' to 'a[j][i]'
+10. Display "Transpose Matrix,"
+11. Use nested for loops with 'i' ranging from 0 to 'r-1' and 'j' ranging from 0 to 'c-1'
+    a. Display 'b[i][j]' followed by a space
+    b. Display a newline after each row
+12. End
+_________________________________________________________________________________________
+
+Algorithm: MultiplyMatrices
+
+1. Start
+2. Declare variables 'r1', 'c1', 'r2', 'c2', 'i', 'j', and 'k' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter number of rows for Matrix 1: " to prompt the user and store it in 'r1'
+5. Display "Enter number of columns for Matrix 1: " to prompt the user and store it in 'c1'
+6. Display "Enter number of rows for Matrix 2: " to prompt the user and store it in 'r2'
+7. Display "Enter number of columns for Matrix 2: " to prompt the user and store it in 'c2'
+8. Declare 2D arrays 'a', 'b', and 'mul' of integers with dimensions 'r1 x c1', 'r2 x c2', and 'r1 x c2' respectively
+9. Check if 'c2' is equal to 'r1'
+   a. If true, proceed with matrix multiplication
+      i. Display "For Matrix 1"
+      ii. Use nested for loops with 'i' ranging from 0 to 'r1-1' and 'j' ranging from 0 to 'c1-1'
+          - Display "Enter elements [<i+1>][<j+1>]: "
+          - Read the element from the user and store it in 'a[i][j]'
+      iii. Display "For Matrix 2"
+      iv. Use nested for loops with 'i' ranging from 0 to 'r2-1' and 'j' ranging from 0 to 'c2-1'
+          - Display "Enter elements [<i+1>][<j+1>]: "
+          - Read the element from the user and store it in 'b[i][j]'
+      v. Initialize all elements of 'mul' to 0
+      vi. Use nested for loops to perform matrix multiplication
+          - Use 'i' ranging from 0 to 'r1-1', 'j' ranging from 0 to 'c2-1', and 'k' ranging from 0 to 'r2-1'
+              - Update 'mul[i][j]' by adding the product of 'a[i][k]' and 'b[k][j]'
+      vii. Display "Product Matrix"
+      viii. Use nested for loops with 'i' ranging from 0 to 'r1-1' and 'j' ranging from 0 to 'c2-1'
+           - Display 'mul[i][j]' followed by a space
+           - Display a newline after each row
+   b. If false, display "Wrong Input."
+10. End
+__________________________________________________________________________________________
+Algorithm: CalculateMatrixTrace
+
+1. Start
+2. Declare variables 'n', 'i', 'j', and 'sum' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the order number: " to prompt the user and store it in 'n'
+5. Declare a 2D array 'a' of integers with dimensions 'n x n'
+6. Use nested for loops with 'i' ranging from 0 to 'n-1' and 'j' ranging from 0 to 'n-1'
+   a. Display "Enter elements [<i+1>][<j+1>]: " to prompt the user
+   b. Read the element from the user and store it in 'a[i][j]'
+7. Initialize 'sum' to 0
+8. Use nested for loops with 'i' ranging from 0 to 'n-1' and 'j' ranging from 0 to 'n-1'
+   a. If 'i' is equal to 'j', add 'a[i][j]' to 'sum'
+9. Display "Trace of the elements = <sum>" where <sum> is the value of 'sum'
+10. End
+__________________________________________________________________________________________
+Algorithm: CheckPalindrome
+
+1. Start
+2. Declare variables 'i', 'j', and 'l' of type integer
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the String: " to prompt the user
+5. Read the string from the user and store it in the variable 's1'
+6. Declare an empty string 's2'
+7. Set 'l' to the length of the string 's1'
+8. Use a for loop with 'i' ranging from 'l-1' to 0 (backwards)
+   a. Concatenate the character at index 'i' of 's1' to 's2'
+9. Check if 's1' is equal to 's2' (ignoring case)
+   a. If true, display "Entered String is palindrome."
+   b. If false, display "Entered String is not palindrome."
+10. End
+__________________________________________________________________________________________
+Algorithm: SearchCharacterInString
+
+1. Start
+2. Declare variables 'i', 'j', 'l', 'flag' of type integer, and 'ch' of type char
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the String: " to prompt the user
+5. Read the string from the user and store it in the variable 's1'
+6. Set 'l' to the length of the string 's1'
+7. Display "Enter the character to be searched: " to prompt the user
+8. Read the character from the user and store it in the variable 'ch'
+9. Initialize 'flag' to 0
+10. Use a for loop with 'i' ranging from 0 to 'l-1'
+    a. Check if 'ch' is equal to the character at index 'i' of 's1'
+       - If true, set 'flag' to 'i' and break out of the loop
+11. Check if 'flag' is equal to 0
+    a. If true, display "Entered character not present."
+    b. If false, display "Entered character at <flag+1>"
+12. End
+__________________________________________________________________________________________
+Algorithm: ReplaceCharacterInString
+
+1. Start
+2. Declare variables 'i', 'j', 'l', 'flag' of type integer, 'ch' and 're' of type char
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the String: " to prompt the user
+5. Read the string from the user and store it in the variable 's1'
+6. Set 'l' to the length of the string 's1'
+7. Display "Enter the character to be replaced: " to prompt the user
+8. Read the character to be replaced from the user and store it in the variable 'ch'
+9. Display "Enter the character to be replaced with: " to prompt the user
+10. Read the character to replace with from the user and store it in the variable 're'
+11. Use a for loop with 'i' ranging from 0 to 'l-1'
+    a. If 'ch' is equal to the character at index 'i' of 's1', replace 'ch' with 're' in 's1'
+12. Display "New string: " followed by 's1'
+13. End
+_________________________________________________________________________________________
+Algorithm: CalculateCharacterFrequency
+
+1. Start
+2. Declare variables 'i', 'j', 'l', 'flag' of type integer, and 'ch' of type char
+3. Create a Scanner object named 'input' for user input
+4. Display "Enter the String: " to prompt the user
+5. Read the string from the user and store it in the variable 's1'
+6. Set 'l' to the length of the string 's1'
+7. Display "Enter the character to be searched: " to prompt the user
+8. Read the character from the user and store it in the variable 'ch'
+9. Initialize 'flag' to 0
+10. Use a for loop with 'i' ranging from 0 to 'l-1'
+    a. If 'ch' is equal to the character at index 'i' of 's1', increment 'flag'
+11. Check if 'flag' is equal to 0
+    a. If true, display "Entered character not present."
+    b. If false, display "Entered character frequency = <flag>"
+12. End
+________________________________________________________________________________________
+

@@ -1,0 +1,124 @@
+set3
+___________________________________________________________________________
+I. START
+
+Class: student
+1. Declare instance variables 'input' of type Scanner, 'name' of type String, 'roll' of type int, and 'mark' as an array of 5 integers.
+2. Define a method 'read' with no parameters
+   a. Display "Enter name: " to prompt the user and read the input into 'name'
+   b. Display "Enter Roll.no: " to prompt the user and read the input into 'roll'
+   c. Use a for loop to iterate from 0 to 4
+      i. Display "Enter mark of sub <j+1>: " to prompt the user and read the input into 'mark[j]'
+3. Define a method 'display' with no parameters
+   a. Display "Name: " followed by the value of 'name'
+   b. Display "Roll.no: " followed by the value of 'roll'
+   c. Use a for loop to iterate from 0 to 4
+      i. Display "Mark of sub <j+1>: " followed by the value of 'mark[j]'
+
+Class: studentdetails
+1. Define the main method
+   a. Declare a variable 'input' of type Scanner
+   b. Create an object 's' of type 'student'
+   c. Call the 'read' method on object 's'
+   d. Call the 'display' method on object 's'
+   
+II. END
+___________________________________________________________________________________
+I. START
+
+Class: areafunction
+1. Define a method 'area' with parameters 'int l' and 'int b'
+   a. Declare a variable 'a' of type int
+   b. Calculate the area 'a' of the rectangle using the formula 'a = l * b'
+   c. Display "Area of Rectangle = " followed by the value of 'a'
+2. Define a method 'area' with parameter 'int r'
+   a. Declare a variable 'a' of type float
+   b. Calculate the area 'a' of the circle using the formula 'a = (float)3.14 * r * r'
+   c. Display "Area of Circle = " followed by the value of 'a'
+3. Define a method 'area' with parameters 'float b' and 'float h'
+   a. Declare a variable 'a' of type float
+   b. Calculate the area 'a' of the triangle using the formula 'a = (b * h) / 2'
+   c. Display "Area of Triangle = " followed by the value of 'a'
+
+Class: areafigures
+1. Define the main method
+   a. Create an object 'input' of type Scanner
+   b. Display "Rectangle"
+   c. Display "Enter length :"
+   d. Read the length from the user and store it in the variable 'length'
+   e. Display "Enter bredth :"
+   f. Read the bredth from the user and store it in the variable 'bredth'
+   g. Display "Circle"
+   h. Display "Enter radius :"
+   i. Read the radius from the user and store it in the variable 'radius'
+   j. Display "Triangle"
+   k. Display "Enter height :"
+   l. Read the height from the user and store it in the variable 'height'
+   m. Display "Enter base length :"
+   n. Read the base length from the user and store it in the variable 'base'
+   o. Create an object 'x' of type 'areafunction'
+   p. Call the 'area' method on object 'x' with parameters 'length' and 'bredth'
+   q. Call the 'area' method on object 'x' with parameter 'radius'
+   r. Call the 'area' method on object 'x' with parameters 'base' and 'height'
+   
+II. END
+__________________________________________________________________________________________
+
+I. START
+
+Class: perimeter
+1. Define a parameterized constructor 'perimeter' with parameters 'int l' and 'int b'
+   a. Declare a variable 'a' of type int
+   b. Calculate the perimeter 'a' of the rectangle using the formula 'a = 2 * (l + b)'
+   c. Display "Perimeter of Rectangle = " followed by the value of 'a'
+2. Define a parameterized constructor 'perimeter' with parameter 'int r'
+   a. Declare a variable 'a' of type float
+   b. Calculate the perimeter 'a' of the circle using the formula 'a = (float)3.14 * r * 2'
+   c. Display "Perimeter of Circle = " followed by the value of 'a'
+
+Class: perimetershapes
+1. Define the main method
+   a. Create an object 'input' of type Scanner
+   b. Display "Rectangle"
+   c. Display "Enter length :"
+   d. Read the length from the user and store it in the variable 'length'
+   e. Display "Enter bredth :"
+   f. Read the bredth from the user and store it in the variable 'bredth'
+   g. Display "Circle"
+   h. Display "Enter radius :"
+   i. Read the radius from the user and store it in the variable 'radius'
+   j. Create an object 'x' of type 'perimeter' with parameters 'length' and 'bredth'
+   k. Create an object 'y' of type 'perimeter' with parameter 'radius'
+   
+II. END
+_________________________________________________________________________________________
+I. START
+
+Class: employ
+1. Declare instance variables 'Name' of type String, 'No' of type int, and 'Ph_no' of type int.
+2. Declare a Scanner object 'input' to read user input.
+3. Define a parameterized constructor 'employ' with parameters 'String name', 'int no', and 'int ph_no'
+   a. Assign the values of 'name', 'no', and 'ph_no' to the instance variables 'Name', 'No', and 'Ph_no', respectively.
+4. Define a method 'display' with no parameters
+   a. Display "Name: " followed by the value of 'Name'
+   b. Display "Emp.no: " followed by the value of 'No'
+   c. Display "Phone: " followed by the value of 'Ph_no'
+
+Class: employdetail
+1. Define the main method
+   a. Declare local variables 'Name', 'No', and 'Ph_no' of types String and int.
+   b. Create an array of 'employ' objects named 'e' with a size of 5.
+   c. Use a for loop to iterate from 0 to 4
+      i. Display "Enter name: "
+      ii. Read the name from the user and store it in the variable 'Name'
+      iii. Display "Enter Emp.no: "
+      iv. Read the employee number from the user and store it in the variable 'No'
+      v. Display "Enter phone: "
+      vi. Read the phone number from the user and store it in the variable 'Ph_no'
+      vii. Create an object 'e[i]' of type 'employ' using the constructor with parameters 'Name', 'No', and 'Ph_no'
+   d. Use a for loop to iterate from 0 to 4
+      i. Call the 'display' method on object 'e[i]'
+
+II. END
+___________________________________________________________________________________________
+
